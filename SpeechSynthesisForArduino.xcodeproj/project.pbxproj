@@ -1,0 +1,294 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B6A4B8271577F36900CAAD94 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6A4B8261577F36900CAAD94 /* Cocoa.framework */; };
+		B6A4B8311577F36900CAAD94 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B6A4B82F1577F36900CAAD94 /* InfoPlist.strings */; };
+		B6A4B8331577F36900CAAD94 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B6A4B8321577F36900CAAD94 /* main.m */; };
+		B6A4B8371577F36900CAAD94 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = B6A4B8351577F36900CAAD94 /* Credits.rtf */; };
+		B6A4B83A1577F36900CAAD94 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B6A4B8391577F36900CAAD94 /* AppDelegate.m */; };
+		B6A4B83D1577F36A00CAAD94 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = B6A4B83B1577F36A00CAAD94 /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B6A4B8221577F36900CAAD94 /* SpeechSynthesisForArduino.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpeechSynthesisForArduino.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6A4B8261577F36900CAAD94 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		B6A4B8291577F36900CAAD94 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		B6A4B82A1577F36900CAAD94 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		B6A4B82B1577F36900CAAD94 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B6A4B82E1577F36900CAAD94 /* SpeechSynthesisForArduino-Info.plist */ = {isa = PBXFileReference; path = "SpeechSynthesisForArduino-Info.plist"; sourceTree = "<group>"; };
+		B6A4B8301577F36900CAAD94 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B6A4B8321577F36900CAAD94 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B6A4B8341577F36900CAAD94 /* SpeechSynthesisForArduino-Prefix.pch */ = {isa = PBXFileReference; path = "SpeechSynthesisForArduino-Prefix.pch"; sourceTree = "<group>"; };
+		B6A4B8361577F36900CAAD94 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		B6A4B8381577F36900CAAD94 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		B6A4B8391577F36900CAAD94 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B6A4B83C1577F36A00CAAD94 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B6A4B81F1577F36900CAAD94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6A4B8271577F36900CAAD94 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B6A4B8171577F36900CAAD94 = {
+			isa = PBXGroup;
+			children = (
+				B6A4B82C1577F36900CAAD94 /* SpeechSynthesisForArduino */,
+				B6A4B8251577F36900CAAD94 /* Frameworks */,
+				B6A4B8231577F36900CAAD94 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B6A4B8231577F36900CAAD94 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B6A4B8221577F36900CAAD94 /* SpeechSynthesisForArduino.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B6A4B8251577F36900CAAD94 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B6A4B8261577F36900CAAD94 /* Cocoa.framework */,
+				B6A4B8281577F36900CAAD94 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B6A4B8281577F36900CAAD94 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B6A4B8291577F36900CAAD94 /* AppKit.framework */,
+				B6A4B82A1577F36900CAAD94 /* CoreData.framework */,
+				B6A4B82B1577F36900CAAD94 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		B6A4B82C1577F36900CAAD94 /* SpeechSynthesisForArduino */ = {
+			isa = PBXGroup;
+			children = (
+				B6A4B8381577F36900CAAD94 /* AppDelegate.h */,
+				B6A4B8391577F36900CAAD94 /* AppDelegate.m */,
+				B6A4B83B1577F36A00CAAD94 /* MainMenu.xib */,
+				B6A4B82D1577F36900CAAD94 /* Supporting Files */,
+			);
+			path = SpeechSynthesisForArduino;
+			sourceTree = "<group>";
+		};
+		B6A4B82D1577F36900CAAD94 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B6A4B82E1577F36900CAAD94 /* SpeechSynthesisForArduino-Info.plist */,
+				B6A4B82F1577F36900CAAD94 /* InfoPlist.strings */,
+				B6A4B8321577F36900CAAD94 /* main.m */,
+				B6A4B8341577F36900CAAD94 /* SpeechSynthesisForArduino-Prefix.pch */,
+				B6A4B8351577F36900CAAD94 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B6A4B8211577F36900CAAD94 /* SpeechSynthesisForArduino */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6A4B8401577F36A00CAAD94 /* Build configuration list for PBXNativeTarget "SpeechSynthesisForArduino" */;
+			buildPhases = (
+				B6A4B81E1577F36900CAAD94 /* Sources */,
+				B6A4B81F1577F36900CAAD94 /* Frameworks */,
+				B6A4B8201577F36900CAAD94 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SpeechSynthesisForArduino;
+			productName = SpeechSynthesisForArduino;
+			productReference = B6A4B8221577F36900CAAD94 /* SpeechSynthesisForArduino.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B6A4B8191577F36900CAAD94 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = robotgrrl.com;
+			};
+			buildConfigurationList = B6A4B81C1577F36900CAAD94 /* Build configuration list for PBXProject "SpeechSynthesisForArduino" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B6A4B8171577F36900CAAD94;
+			productRefGroup = B6A4B8231577F36900CAAD94 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B6A4B8211577F36900CAAD94 /* SpeechSynthesisForArduino */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B6A4B8201577F36900CAAD94 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6A4B8311577F36900CAAD94 /* InfoPlist.strings in Resources */,
+				B6A4B8371577F36900CAAD94 /* Credits.rtf in Resources */,
+				B6A4B83D1577F36A00CAAD94 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B6A4B81E1577F36900CAAD94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6A4B8331577F36900CAAD94 /* main.m in Sources */,
+				B6A4B83A1577F36900CAAD94 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B6A4B82F1577F36900CAAD94 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B6A4B8301577F36900CAAD94 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B6A4B8351577F36900CAAD94 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B6A4B8361577F36900CAAD94 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		B6A4B83B1577F36A00CAAD94 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B6A4B83C1577F36A00CAAD94 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B6A4B83E1577F36A00CAAD94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		B6A4B83F1577F36A00CAAD94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		B6A4B8411577F36A00CAAD94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SpeechSynthesisForArduino/SpeechSynthesisForArduino-Prefix.pch";
+				INFOPLIST_FILE = "SpeechSynthesisForArduino/SpeechSynthesisForArduino-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B6A4B8421577F36A00CAAD94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SpeechSynthesisForArduino/SpeechSynthesisForArduino-Prefix.pch";
+				INFOPLIST_FILE = "SpeechSynthesisForArduino/SpeechSynthesisForArduino-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B6A4B81C1577F36900CAAD94 /* Build configuration list for PBXProject "SpeechSynthesisForArduino" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6A4B83E1577F36A00CAAD94 /* Debug */,
+				B6A4B83F1577F36A00CAAD94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6A4B8401577F36A00CAAD94 /* Build configuration list for PBXNativeTarget "SpeechSynthesisForArduino" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6A4B8411577F36A00CAAD94 /* Debug */,
+				B6A4B8421577F36A00CAAD94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B6A4B8191577F36900CAAD94 /* Project object */;
+}
