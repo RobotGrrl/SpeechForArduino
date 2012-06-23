@@ -7,28 +7,68 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B667F3BF158D26230085EC0A /* ApplicationServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B667F3BE158D26230085EC0A /* ApplicationServices.framework */; };
+		B6684E5E157868EE00B38A1F /* Matatino.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6684E5D157868E700B38A1F /* Matatino.framework */; };
+		B6684E60157868FD00B38A1F /* Matatino.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = B6684E5D157868E700B38A1F /* Matatino.framework */; };
+		B6698F991587BD410082D7F7 /* Icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = B6698F981587BD410082D7F7 /* Icon.icns */; };
+		B696F1FE15963CC000030A3A /* Sparkle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B696F1FD15963CC000030A3A /* Sparkle.framework */; };
+		B696F1FF15963DC100030A3A /* Sparkle.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = B696F1FD15963CC000030A3A /* Sparkle.framework */; };
+		B696F20215963E7300030A3A /* dsa_pub.pem in Resources */ = {isa = PBXBuildFile; fileRef = B696F20115963E7200030A3A /* dsa_pub.pem */; };
 		B6A4B8271577F36900CAAD94 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6A4B8261577F36900CAAD94 /* Cocoa.framework */; };
 		B6A4B8311577F36900CAAD94 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B6A4B82F1577F36900CAAD94 /* InfoPlist.strings */; };
 		B6A4B8331577F36900CAAD94 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B6A4B8321577F36900CAAD94 /* main.m */; };
 		B6A4B8371577F36900CAAD94 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = B6A4B8351577F36900CAAD94 /* Credits.rtf */; };
 		B6A4B83A1577F36900CAAD94 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B6A4B8391577F36900CAAD94 /* AppDelegate.m */; };
 		B6A4B83D1577F36A00CAAD94 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = B6A4B83B1577F36A00CAAD94 /* MainMenu.xib */; };
+		B6A4B84C1578069900CAAD94 /* Speaker.m in Sources */ = {isa = PBXBuildFile; fileRef = B6A4B84B1578069900CAAD94 /* Speaker.m */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		B6684E5C157868E700B38A1F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B6684E55157868E700B38A1F /* Matatino.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = B6E03BB813F6BA7200E19A78;
+			remoteInfo = Matatino;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B6684E5F157868F900B38A1F /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				B6684E60157868FD00B38A1F /* Matatino.framework in CopyFiles */,
+				B696F1FF15963DC100030A3A /* Sparkle.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
-		B6A4B8221577F36900CAAD94 /* SpeechSynthesisForArduino.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpeechSynthesisForArduino.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B667F3BE158D26230085EC0A /* ApplicationServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ApplicationServices.framework; path = System/Library/Frameworks/ApplicationServices.framework; sourceTree = SDKROOT; };
+		B6684E55157868E700B38A1F /* Matatino.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Matatino.xcodeproj; path = "../Matatino 1.1 local no app/Matatino.xcodeproj"; sourceTree = "<group>"; };
+		B6698F981587BD410082D7F7 /* Icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = Icon.icns; sourceTree = "<group>"; };
+		B6698F9A1587BEF40082D7F7 /* Speech for Arduino.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "Speech for Arduino.entitlements"; sourceTree = "<group>"; };
+		B696F1FD15963CC000030A3A /* Sparkle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Sparkle.framework; path = Frameworks/Sparkle.framework; sourceTree = "<group>"; };
+		B696F20115963E7200030A3A /* dsa_pub.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = dsa_pub.pem; sourceTree = "<group>"; };
+		B6A4B8221577F36900CAAD94 /* Speech for Arduino.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Speech for Arduino.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6A4B8261577F36900CAAD94 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		B6A4B8291577F36900CAAD94 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		B6A4B82A1577F36900CAAD94 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		B6A4B82B1577F36900CAAD94 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		B6A4B82E1577F36900CAAD94 /* SpeechSynthesisForArduino-Info.plist */ = {isa = PBXFileReference; path = "SpeechSynthesisForArduino-Info.plist"; sourceTree = "<group>"; };
+		B6A4B82E1577F36900CAAD94 /* SpeechSynthesisForArduino-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SpeechSynthesisForArduino-Info.plist"; sourceTree = "<group>"; };
 		B6A4B8301577F36900CAAD94 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B6A4B8321577F36900CAAD94 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		B6A4B8341577F36900CAAD94 /* SpeechSynthesisForArduino-Prefix.pch */ = {isa = PBXFileReference; path = "SpeechSynthesisForArduino-Prefix.pch"; sourceTree = "<group>"; };
+		B6A4B8341577F36900CAAD94 /* SpeechSynthesisForArduino-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SpeechSynthesisForArduino-Prefix.pch"; sourceTree = "<group>"; };
 		B6A4B8361577F36900CAAD94 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		B6A4B8381577F36900CAAD94 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		B6A4B8381577F36900CAAD94 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B6A4B8391577F36900CAAD94 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		B6A4B83C1577F36A00CAAD94 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		B6A4B84A1578069900CAAD94 /* Speaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Speaker.h; sourceTree = "<group>"; };
+		B6A4B84B1578069900CAAD94 /* Speaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Speaker.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,16 +76,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B667F3BF158D26230085EC0A /* ApplicationServices.framework in Frameworks */,
 				B6A4B8271577F36900CAAD94 /* Cocoa.framework in Frameworks */,
+				B6684E5E157868EE00B38A1F /* Matatino.framework in Frameworks */,
+				B696F1FE15963CC000030A3A /* Sparkle.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B6684E56157868E700B38A1F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B6684E5D157868E700B38A1F /* Matatino.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B696F20015963E7200030A3A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B696F20115963E7200030A3A /* dsa_pub.pem */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		B6A4B8171577F36900CAAD94 = {
 			isa = PBXGroup;
 			children = (
+				B696F20015963E7200030A3A /* Resources */,
+				B6684E55157868E700B38A1F /* Matatino.xcodeproj */,
 				B6A4B82C1577F36900CAAD94 /* SpeechSynthesisForArduino */,
 				B6A4B8251577F36900CAAD94 /* Frameworks */,
 				B6A4B8231577F36900CAAD94 /* Products */,
@@ -55,7 +116,7 @@
 		B6A4B8231577F36900CAAD94 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B6A4B8221577F36900CAAD94 /* SpeechSynthesisForArduino.app */,
+				B6A4B8221577F36900CAAD94 /* Speech for Arduino.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -63,6 +124,8 @@
 		B6A4B8251577F36900CAAD94 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				B696F1FD15963CC000030A3A /* Sparkle.framework */,
+				B667F3BE158D26230085EC0A /* ApplicationServices.framework */,
 				B6A4B8261577F36900CAAD94 /* Cocoa.framework */,
 				B6A4B8281577F36900CAAD94 /* Other Frameworks */,
 			);
@@ -82,8 +145,11 @@
 		B6A4B82C1577F36900CAAD94 /* SpeechSynthesisForArduino */ = {
 			isa = PBXGroup;
 			children = (
+				B6698F9A1587BEF40082D7F7 /* Speech for Arduino.entitlements */,
 				B6A4B8381577F36900CAAD94 /* AppDelegate.h */,
 				B6A4B8391577F36900CAAD94 /* AppDelegate.m */,
+				B6A4B84A1578069900CAAD94 /* Speaker.h */,
+				B6A4B84B1578069900CAAD94 /* Speaker.m */,
 				B6A4B83B1577F36A00CAAD94 /* MainMenu.xib */,
 				B6A4B82D1577F36900CAAD94 /* Supporting Files */,
 			);
@@ -93,6 +159,7 @@
 		B6A4B82D1577F36900CAAD94 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				B6698F981587BD410082D7F7 /* Icon.icns */,
 				B6A4B82E1577F36900CAAD94 /* SpeechSynthesisForArduino-Info.plist */,
 				B6A4B82F1577F36900CAAD94 /* InfoPlist.strings */,
 				B6A4B8321577F36900CAAD94 /* main.m */,
@@ -112,6 +179,7 @@
 				B6A4B81E1577F36900CAAD94 /* Sources */,
 				B6A4B81F1577F36900CAAD94 /* Frameworks */,
 				B6A4B8201577F36900CAAD94 /* Resources */,
+				B6684E5F157868F900B38A1F /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -119,7 +187,7 @@
 			);
 			name = SpeechSynthesisForArduino;
 			productName = SpeechSynthesisForArduino;
-			productReference = B6A4B8221577F36900CAAD94 /* SpeechSynthesisForArduino.app */;
+			productReference = B6A4B8221577F36900CAAD94 /* Speech for Arduino.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -141,12 +209,28 @@
 			mainGroup = B6A4B8171577F36900CAAD94;
 			productRefGroup = B6A4B8231577F36900CAAD94 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = B6684E56157868E700B38A1F /* Products */;
+					ProjectRef = B6684E55157868E700B38A1F /* Matatino.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				B6A4B8211577F36900CAAD94 /* SpeechSynthesisForArduino */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		B6684E5D157868E700B38A1F /* Matatino.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Matatino.framework;
+			remoteRef = B6684E5C157868E700B38A1F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		B6A4B8201577F36900CAAD94 /* Resources */ = {
@@ -156,6 +240,8 @@
 				B6A4B8311577F36900CAAD94 /* InfoPlist.strings in Resources */,
 				B6A4B8371577F36900CAAD94 /* Credits.rtf in Resources */,
 				B6A4B83D1577F36A00CAAD94 /* MainMenu.xib in Resources */,
+				B6698F991587BD410082D7F7 /* Icon.icns in Resources */,
+				B696F20215963E7300030A3A /* dsa_pub.pem in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -168,6 +254,7 @@
 			files = (
 				B6A4B8331577F36900CAAD94 /* main.m in Sources */,
 				B6A4B83A1577F36900CAAD94 /* AppDelegate.m in Sources */,
+				B6A4B84C1578069900CAAD94 /* Speaker.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,10 +336,17 @@
 		B6A4B8411577F36A00CAAD94 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "3rd Party Mac Developer Application: CVL Wireless";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Frameworks\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SpeechSynthesisForArduino/SpeechSynthesisForArduino-Prefix.pch";
 				INFOPLIST_FILE = "SpeechSynthesisForArduino/SpeechSynthesisForArduino-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				PRODUCT_NAME = "Speech for Arduino";
+				PROVISIONING_PROFILE = "050E0FCA-0232-4EE6-9CA9-2A228EFCDA53";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -260,10 +354,17 @@
 		B6A4B8421577F36A00CAAD94 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "3rd Party Mac Developer Application: CVL Wireless";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Frameworks\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SpeechSynthesisForArduino/SpeechSynthesisForArduino-Prefix.pch";
 				INFOPLIST_FILE = "SpeechSynthesisForArduino/SpeechSynthesisForArduino-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				PRODUCT_NAME = "Speech for Arduino";
+				PROVISIONING_PROFILE = "050E0FCA-0232-4EE6-9CA9-2A228EFCDA53";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -287,6 +388,7 @@
 				B6A4B8421577F36A00CAAD94 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
